@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact Jeunesse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Impact Jeunesse Logo">
+      <span>EducAction</span>
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#accueil" class="nav-link">Accueil</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#info" class="nav-link">Informations</a></li>
+      <li><a href="#founder" class="nav-link">Fondatrice</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-overlay" id="mobile-overlay">
+      <div class="close-button" id="close-button">&times;</div>
+      <ul class="mobile-nav-links">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#info" class="nav-link">Informations</a></li>
+        <li><a href="#founder" class="nav-link">Fondatrice</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <!-- Hero Section -->
+<!-- Hero Section -->
+<section id="accueil" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Avec EducAction, chaque jeune a le pouvoir de réaliser son plein potentiel.</h1>
+      <p class="hero-subtitle">Accompagnement psychosocial pour les jeunes de 12 à 25 ans.</p>
+      <a href="#services" class="cta-button">Découvrez nos ateliers</a>
+    </div>
+    <div class="hero-decorations">
+      <div class="deco-circle"></div>
+      <div class="deco-square"></div>
+      
+    </div>
+    <div class="hero-overlay"></div>
+  </section>
+  <!-- Services Section -->
+  <!-- Nos Services Section -->
+<section id="services" class="services-section">
+    <h2>Nos Services</h2>
+    <div class="services-grid">
+      <!-- Ateliers Psychosociaux -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="ateliers.jpg" alt="Ateliers Psychosociaux">
+        </div>
+        <div class="service-content">
+          <h3>Ateliers Psychosociaux</h3>
+          <p>Des sessions interactives pour développer l’intelligence émotionnelle, la confiance en soi et les compétences sociales.</p>
+          <a href="#contact" class="cta-button">Contactez-nous</a>
+        </div>
+      </div>
+  
+      <!-- Coaching Personnalisé -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="coaching.jpg" alt="Coaching Personnalisé">
+        </div>
+        <div class="service-content">
+          <h3>Coaching Personnalisé</h3>
+          <p>Un accompagnement sur mesure pour aider les jeunes à atteindre leurs objectifs personnels et professionnels.</p>
+          <a href="#contact" class="cta-button">Contactez-nous</a>
+        </div>
+      </div>
+  
+      <!-- Formations -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="formations.jpg" alt="Formations">
+        </div>
+        <div class="service-content">
+          <h3>Formations</h3>
+          <p>Des modules éducatifs variés pour enrichir les connaissances et les compétences dans différents domaines.</p>
+          <a href="#contact" class="cta-button">Contactez-nous</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Information Section -->
+  <section id="info" class="info-section">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Impact Jeunesse est un centre dédié à offrir un soutien holistique aux jeunes de 12 à 25 ans. Nous nous engageons à créer un environnement où ils peuvent explorer leurs talents, renforcer leurs compétences et construire un avenir prometteur.</p>
+  </section>
+
+  <!-- Founder Section -->
+  <section id="founder" class="founder-section">
+    <h2>Notre Fondatrice</h2>
+    <div class="founder-content">
+      <img src="assets/Screen Shot 2025-02-04 at 9.09.52 PM.png" alt="Asmaa Imzilne" class="founder-image">
+      <div class="founder-bio">
+        <h3>Asmaa Imzilne</h3>
+        <p>Fondatrice de Impact Jeunesse. Biochimiste et hypnothérapeute de formation, elle enseigne depuis plusieurs années dans les écoles secondaires du Québec. Elle anime des ateliers philosophiques et de pratique de l’attention dans les écoles primaires. Elle coache plusieurs jeunes pour avoir une conscience de soi, pour gérer leurs émotions et pour réaliser leur plein potentiel.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials Section -->
+<!-- Testimonials Section -->
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contactez-nous</h2>
+    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 EducAction. Tous droits réservés.</p>
+    <div class="social-links">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Mobile Menu Toggle
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+ <script src="index.js"></script>
+</body>
+</html>
